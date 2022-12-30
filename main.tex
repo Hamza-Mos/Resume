@@ -1,0 +1,194 @@
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+% \usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+% \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[sfdefault]{carlito}
+
+\usepackage{xcolor,soul,lipsum}
+\usepackage[hidelinks]{hyperref}
+\newcommand{\myhytop}[2]{\href{#1}{\color{black}{#2}}}
+\newcommand{\myhyrest}[2]{\href{#1}{\color{blue}{#2}}}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \small#3 & \small #4 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Hamza Mostafa}} & Email:  \myhytop{mailto:hamostaf@uwaterloo.ca}{hamostaf@uwaterloo.ca}\\
+  Linkedin: \myhytop{https://www.linkedin.com/in/hamza-mostafa-614123220/}{https://www.linkedin.com/in/hamza-mostafa-614123220/} & Mobile: (416) 523-7062 \\
+  Github: \myhytop{https://github.com/Hamza-Mos}{https://github.com/Hamza-Mos} \\
+  Portfolio: \myhytop{https://www.hamzamostafa.com/}{https://www.hamzamostafa.com/} \\
+\end{tabular*}
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills Summary}
+
+    \begin{itemize} [noitemsep,nolistsep]
+        \item \textbf{Languages}: C++, JavaScript, C, Java, Python, HTML, CSS, SQL, Motoko, LaTeX
+        \item \textbf{Tools/Frameworks}: VS Code, Git, GitHub, MySQL, MongoDB, Mongoose, OpenCV, Sequelize, Hibernate, Springboot, Eclipse
+        \item \textbf{Software Development}: Node.js, jQuery, React, REST APIs, User Authentication, UI, UX, AI, Machine Learning, Blockchain
+        \item \textbf{Soft Skills}: Leadership; strong interpersonal skills; hard-working and reliable; fast-paced; punctual; efficient
+    \end{itemize}
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+    \resumeSubheading
+    {Computer Science Instructor}{May 2021 - Sept 2021}
+    {Rotary Club Mississauga-Malton}{Mississauga, ON}
+    \vspace{2mm}
+    \begin{itemize} [noitemsep,nolistsep]
+        \item Created \textbf{12+ engaging lessons} for \textbf{20+ middle school students} to develop their interest and skills in programming in \textbf{Python}; improving their \textbf{productivity and skills by 33\%} on average.
+        \item Completed a series of administrative tasks such as \textbf{crafting lesson plans}, \textbf{instructor notes} for present and future coding camps, and \textbf{camp attendance}.
+        \item Collaborated with multiple teams and \textbf{communicated with stakeholders} to ensure a \textbf{successful bootcamp project launch}.
+    \end{itemize}
+    
+    \resumeSubheading
+    {Computer Science Club Founder/President}{Oct 2021 - June 2022}
+    {Rick Hansen Secondary School}{Mississauga, ON}
+    \vspace{2mm}
+    \begin{itemize} [noitemsep,nolistsep]
+        \item Led a team of \textbf{15+} members dedicated to teach \textbf{programming fundamentals} to over \textbf{200+} participants.
+        \item Hosted \textbf{5+ technical events} and workshops for the organization’s success gaining \textbf{300+} attendees that revolved around \textbf{discussions in tech} and preparation for \textbf{programming competitions}.
+        \item {Designed a thorough and \textbf{tech-oriented curriculum} that would allow students to learn about \textbf{software, hardware, and technology} beyond the school curriculum}.
+    \end{itemize}
+    
+    
+    \resumeSubheading
+		{Sales Associate}{June 2022 - Sept 2022}
+		{Simons}{Mississauga, ON}
+		\vspace{2mm}
+    \begin{itemize} [noitemsep,nolistsep]
+        \item Implemented an \textbf{effective sales process} and strategy that led to consistently achieving the \textbf{desired sales quota}.
+        \item Collaborated with a team of 5 other sales associates to achieve a \textbf{high customer satisfaction rate} and maintain a \textbf{professional working environment}.
+        \item Proactively \textbf{interacted with customers} to recommend merchandise & clothing that \textbf{suits their interests, body type, and budget}.
+    \end{itemize}
+
+%-----------PROJECTS-----------------
+\section{Personal Projects}
+
+    \vspace{1mm}
+    \large{\textbf{Keeper App} - \myhyrest{https://github.com/Hamza-Mos/Anonymous-Smiles}{Link}}
+    
+    \normalsize{\begin{itemize} [noitemsep,nolistsep]
+        \item Created using \textbf{Node.js}; allows people to anonymously exchange positive messages; gaining \textbf{35+ users}.
+        \item Implemented an \textbf{authentication system} integrating with \textbf{Passport.js, MongoDB using the Mongoose ORM}.
+        \item Developed a \textbf{sentence positivity score feature} utilizing the \textbf{Sentiment NPM package}.
+    \end{itemize}}
+    
+    \vspace{1mm}
+    \large{\textbf{Keeper App} - \myhyrest{https://github.com/Hamza-Mos/KeeperApp}{Link}}
+    
+    \normalsize{\begin{itemize} [noitemsep,nolistsep]
+        \item Built using \textbf{Node.js} and the \textbf{React} library; allows users to write notes and To-Do Lists; tested by \textbf{15+ users}.
+        \item Provided an elegant \textbf{UI design} using multiple front-end NPM modules including the \textbf{Material-UI} packages.
+        % \item Developed using Hooks and States from the \textbf{React} library to help improve efficiency and user experience.
+    \end{itemize}}
+    
+    \vspace{1mm}
+    \large{\textbf{FaceLock} - \myhyrest{https://github.com/Hamza-Mos/FaceLock}{Link}}
+    
+    \normalsize{\begin{itemize} [noitemsep,nolistsep]
+        \item Created a door mechanism that unlocks once a tenant's face is detected; using \textbf{AI} and \textbf{OpenCV} in \textbf{Python}.
+        \item Tested in front of an audience of \textbf{110+ Software Engineering Students} during our product pitch.
+    \end{itemize}}
+    
+    \vspace{1mm}
+    \large{\textbf{Snake MVC Game} - \myhyrest{https://github.com/Hamza-Mos/Snake-MVC-Game}{Link}}
+    
+    \normalsize{\begin{itemize} [noitemsep,nolistsep]
+        \item Implemented the \textbf{MVC} design pattern and \textbf{OOP concepts} using \textbf{Java} to build the classic Snake Game.
+        \item Played by \textbf{50+ high school students} and was used in \textbf{Computer Science classroom demonstrations}.
+    \end{itemize}}
+    
+    \vspace{1mm}
+    \textbf{\large{DBank -}} \large{\myhyrest{https://github.com/Hamza-Mos/DBank}{Link}}
+    
+    \normalsize{\begin{itemize} [noitemsep,nolistsep]
+        \item Developed using \textbf{Blockchain} and \textbf{Ethereum} in \textbf{Motoko}; tracks compound interest on tokens; tested by 10+ users.
+    \end{itemize}}
+
+%-----------EDUCATION-----------------
+\section{Education}
+
+    \resumeSubheading
+		{University of Waterloo}{Waterloo, ON}
+      {Bachelor of Software Engineering}{Sept 2022 - Apr 2027}
+		\vspace{2mm}
+    \begin{itemize} [noitemsep,nolistsep]
+        \item GPA: 3.89 / 4.0; Awarded: President's Entrance Scholarship.
+        \item Relevant Coursework: Programming Principles, Intro to Methods of Software Engineering, Intro to Data Abstraction.
+    \end{itemize}
+
+% %-----------Awards-----------------
+
+%-------------------------------------------
+\end{document}
